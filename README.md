@@ -12,6 +12,7 @@ The project "cards" uses flex-wrap: wrap and gap to create a clean grid of news 
 The footer links are aligned horizontally using flex properties.
 Typography: Integrated Ubuntu and PT Sans fonts via Google Fonts for a modern look.
 Responsive Design: Utilised calc() and min() functions to ensure the container scales correctly on different screen sizes.
+
 #📂 Project Structure
 
 index.html: The main structure of the page, including the header, news section, and social media footer.

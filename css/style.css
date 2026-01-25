@@ -4,10 +4,8 @@ body {
 .container {
   width: min(100%, 1440px);
   margin: auto;
-  display: flex;
 }
-
-/*header*/
+/*-----header----*/
 
 header {
   background-color: #284069;
@@ -36,7 +34,7 @@ header {
   color: #ddeaf8;
 }
 
-/* section*/
+/* section */
 
 section {
   background-color: #ddeaf8;
@@ -57,11 +55,16 @@ h1 {
   margin-bottom: 54px;
   color: #f56013;
 }
-.rectangles {
-  justify-content: center;
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   gap: 30px 22px;
+  width: calc(1440px / 1244 * 100%);
+  margin-top: 54px;
 }
 
 article {
@@ -92,36 +95,29 @@ button {
 }
 
 /* footer */
-footer {
-  height: 80px;
-}
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 48px 0 48px;
-    padding-top: 48px
-    padding-bottom: 48px;
-    background-color: #284069;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 48px 0;
+  background-color: #284069;
 }
 
 h2 {
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    margin-bottom: 24px;
-
+  text-decoration: underline;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
 
-.ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-    margin-top: 24px;
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+  /* margin-top: 24px; */
 }
-

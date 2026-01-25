@@ -4,7 +4,7 @@ This project is a responsive landing page developed as part of my web developmen
 
 ## 🛠️ Features
 
-* *Semantic HTML5*: Organised using '<header>', '<section>', and '<footer>' tags for better accessibility and SEO.
+* *Semantic HTML5*: Organised using \<header>', \<section>', and \<footer>' tags for better accessibility and SEO.
 * *Flexbox Layouts*: 
     * The navigation bar uses display: flex with space-between to align the logo and menu items.
     * The project "cards" use flex-wrap: wrap and gap to create a clean grid of news articles.
